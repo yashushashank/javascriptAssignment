@@ -1,7 +1,11 @@
-function removeDuplicates(arr) {
-    const uniqueArray = [];
-    
+
+
+let numbers = [1, 2, 2, 3, 4, 4, 5];
+  let uniqueNumbers = removeDuplicates(numbers);
   
+let uniqueArray = [];
+function removeDuplicates(arr) {
+    
     arr.forEach(element => {
      
       let isDuplicate = false;
@@ -21,8 +25,6 @@ function removeDuplicates(arr) {
   }
   
  
-  const numbers = [1, 2, 2, 3, 4, 4, 5];
-  const uniqueNumbers = removeDuplicates(numbers);
   
   console.log(uniqueNumbers); 
   

@@ -1,7 +1,9 @@
+let nestedArray = [1, [2, 3], [4, [5, 6]], 7];
+  let flatArray = flattenArray(nestedArray);
+
+let result = [];
 function flattenArray(arr) {
-    let result = [];
     
-   
     arr.forEach(element => {
       
       if (Array.isArray(element)) {
@@ -15,8 +17,7 @@ function flattenArray(arr) {
   }
   
   
-  const nestedArray = [1, [2, 3], [4, [5, 6]], 7];
-  const flatArray = flattenArray(nestedArray);
+  
   
   console.log(flatArray); 
   

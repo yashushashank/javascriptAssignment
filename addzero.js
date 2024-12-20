@@ -1,7 +1,8 @@
+let inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  let modifiedArray = addZerosAfterEveryThree(inputArray);
+
+let result = [];
 function addZerosAfterEveryThree(arr) {
-    const result = [];
-    
-   
     for (let i = 0; i < arr.length; i++) {
       result.push(arr[i]);  
       
@@ -13,10 +14,6 @@ function addZerosAfterEveryThree(arr) {
     
     return result;
   }
-  
-  
-  const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  const modifiedArray = addZerosAfterEveryThree(inputArray);
-  
+ 
   console.log(modifiedArray); 
   

@@ -1,6 +1,8 @@
-function countRepeatedChars(str) {
-    const charCount = {};  
+let inputString = "aabbbccdde";
+const charCount = {};  
     let result = ''; 
+    
+function countRepeatedChars(str) {
     
     
     for (let i = 0; i < str.length; i++) {
@@ -21,7 +23,7 @@ function countRepeatedChars(str) {
   }
   
  
-  const inputString = "aabbbccdde";
+ 
   const repeatedChars = countRepeatedChars(inputString);
   
   console.log(repeatedChars);
